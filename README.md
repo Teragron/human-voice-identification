@@ -10,7 +10,8 @@ You can visit [this page](https://www.macmillandictionary.com/dictionary/british
 ## Installation
 I would recommend to download this repository for better workspace in command-line.
 
-
+## Demo
+[![Watch the video](gits/testing.mp4)
 
 
 
