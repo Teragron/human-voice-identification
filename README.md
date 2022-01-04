@@ -107,3 +107,5 @@ python modes.py -l compare.mp4 -lt compare.txt -ld 119
 -ld for labeling duration -- give the duration, which you want it to be rendered.
 
 (The video won't be saved as _temp_.mp4 if you are't using jupyter Notebook)
+
+Created by Can Günen
