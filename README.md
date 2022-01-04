@@ -7,6 +7,8 @@ Analyzing and learning the person's specific voice and using it to fine-tune the
 
 You can visit [this page](https://www.macmillandictionary.com/dictionary/british/voice-recognition) for the dictionary definition.
 
+The terms identification and recognition are highly confused. In this repositories context, we will be trying to predict the owner of a given voice.
+
 ## Installation
 I would recommend to download this repository for better workspace in command-line.
 
@@ -107,5 +109,13 @@ python modes.py -l compare.mp4 -lt compare.txt -ld 119
 -ld for labeling duration -- give the duration, which you want it to be rendered.
 
 (The video won't be saved as _temp_.mp4 if you are't using jupyter Notebook)
+
+## Suggestions
+To get overall better results i would recommend using more than one source of video or audio file. The .waw files that i used were concatenated .wav files and it included more than 5 places and microphones. 
+
+
+## Conclusion
+
+The model can make accurate predictions to a certain extent. The normalization of the voice data could be a solution for eliminating obvious environmental factors like quality of voice distance to the microphone or the quite audio files. Since even the posture of the owner of voice affects the visual data, a side process that only let's the core and and constant features of a voice to the model may result in better.
 
 Created by Can Günen
