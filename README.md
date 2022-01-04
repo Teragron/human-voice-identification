@@ -22,5 +22,7 @@ The model, which is a "Deep Residual Learning for Image Recognition" looks at th
 
 Then for the real test Phase, the model makes predictions for the given .wav file and overlays the prediction to the corresponding video.
 
+![](gits/algorithm.png)
+
 
 ![](gits/gitdirs.png)
