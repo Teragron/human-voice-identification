@@ -76,12 +76,12 @@ The training Phase is quite self explanatory. We finetune a pretrained model cal
 
 ![](gits/tune.png)
 
-5. Finally we plot the confusion Matrix, save the model and save the predictions for the target .wav file.
+5. Finally we plot the confusion Matrix, save the model and save the predictions for the target .wav file
 
 ![](gits/confusion.png)
 
 ## Writing predictions on the video
-Now we join the prediction with corresponding video
+Now we join the prediction with corresponding video for given duration
 
 ```bash
 python modes.py -l compare.mp4 -lt compare.txt -ld 119
