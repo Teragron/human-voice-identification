@@ -1,0 +1,13 @@
+Data Preparation:
+	python modes.py -m voice/person1.wav (making mono audio)
+	python modes.py -t voice/person1.wav -p person1(trimming to 1 sec audio clips)
+	python modes.py -v person1 -a voice/person1.wav(creating spectrogram data)
+	python modes.py -r person1(resize visual data to 224,224)
+
+Training:
+	Using Resnet50
+
+Testing:
+	python modes.py -l compare.mp4 -lt compare.txt -ld 119 (video, predicted name in text file, duration)
+
+
