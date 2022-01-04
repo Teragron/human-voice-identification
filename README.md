@@ -11,7 +11,7 @@ You can visit [this page](https://www.macmillandictionary.com/dictionary/british
 I would recommend to download this repository for better workspace in command-line.
 
 ## Demo
-![Watch the video](https://www.youtube.com/watch?v=aJP5xogUpQg)
+[![Watch the video](https://i9.ytimg.com/vi_webp/aJP5xogUpQg/mqdefault.webp?sqp=CNDU0Y4G&rs=AOn4CLBkAohqQ2RLUis8iC2rBZkgzOngnA)](https://www.youtube.com/watch?v=aJP5xogUpQg)
 
 
 
