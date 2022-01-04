@@ -24,5 +24,15 @@ Then for the real test Phase, the model makes predictions for the given .wav fil
 
 ![](gits/algorithm.png)
 
+## How to run it?
+
+Before running the scripts it is better to use the following directorial tree:
 
 ![](gits/gitdirs.png)
+
+After that we start off with converting the stereo .wav file to mono .wav file.
+
+In this way we've halved the size of .wav file.
+
+Besides that the parameters that give us spacial information are now eliminated, thus we have a better chance to prevent any overlocalization. (This is the part i'm not sure about if this kind of elliminition makes any sence)
+
