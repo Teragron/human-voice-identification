@@ -9,15 +9,16 @@ You can visit [this page](https://www.macmillandictionary.com/dictionary/british
 
 The terms identification and recognition are highly confused. In this repositories context, we will be trying to predict the owner of a given voice.
 
-## Installation
-I would recommend to download this repository for better workspace in command-line.
-
 ## Demo
 [![Watch the video](https://i9.ytimg.com/vi_webp/aJP5xogUpQg/mqdefault.webp?sqp=CNDU0Y4G&rs=AOn4CLBkAohqQ2RLUis8iC2rBZkgzOngnA)](https://www.youtube.com/watch?v=aJP5xogUpQg)
 
 This demo is a demonstration for 2-Class speech-Recognition. It showcases the labeled conversation between two of my personal favorite influencers.
 
 It has been trained with total of 4 hours audio clip and 16300 spectrogram image data.
+
+## Installation
+I would recommend to download this repository for better workspace in command-line.
+
 
 ## How it works?
 The model, which is a "Deep Residual Learning for Image Recognition" looks at the voice classes based on given spectrogram image datas, that has been preprocessed.
