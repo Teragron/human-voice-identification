@@ -76,7 +76,7 @@ The training Phase is quite self explanatory. We finetune a pretrained model cal
 
 ![](gits/tune.png)
 
-5. Finally we plot the confusion Matrix, save the model and save the predictions for the target .wav file
+5. Finally we plot the confusion Matrix, save the model and save the predictions for the target .wav file in a .txt file
 
 ![](gits/confusion.png)
 
