@@ -53,7 +53,6 @@ python modes.py -t voice/person1.wav -p person1
 
 ```bash
 python modes.py -v person1 -a voice/person1.wav
-
 ```
 4. Finally we resize the visual datas to 224x224 so that we can have a constant size. Other than that for the sake of finetuning it is also good to use the same size what the model was originally using
 
@@ -77,6 +76,13 @@ The training Phase is quite self explanatory. We finetune a pretrained model cal
 
 ![](gits/tune.png)
 
-5. Finally we plot the confusion Matrix and save the model
+5. Finally we plot the confusion Matrix, save the model and save the predictions for the target .wav file.
 
 ![](gits/confusion.png)
+
+## Writing predictions on the video
+Now we join the prediction with corresponding video
+
+```bash
+python modes.py -l compare.mp4 -lt compare.txt -ld 119
+```
