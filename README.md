@@ -64,8 +64,19 @@ python modes.py -r person1
 ## Training the model
 
 The training Phase is quite self explanatory. We finetune a pretrained model called "resnet50" with using fastai and pytorch libraries.
+
 1. We load the spectrogram data folder path and give a batch size(bs=32)
+
 2. After that we download the Resnet50 model and initiate it.
-3. We get the best Learning Rate ![](gits/vallex.png)
-4. Then we finetune the model ![](gits/tune.png)
-5. Finally we plot the confusion Matrix and save the model ![](gits/confusion.png)
+
+3. We get the best Learning Rate
+
+![](gits/vallex.png)
+
+4. Then we finetune the model
+
+![](gits/tune.png)
+
+5. Finally we plot the confusion Matrix and save the model
+
+![](gits/confusion.png)
