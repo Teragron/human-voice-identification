@@ -63,7 +63,7 @@ python modes.py -r person1
 
 ## Training the model
 
-The training Phase is quite self explanatory. We finetune a pretrained model called "resnet50" with using fastai and pytorch libraries.
+The training Phase is quite self explanatory. We finetune a pretrained model called "resnet50" with using fastai and pytorch libraries. Details are in training.ipynb
 
 1. We load the spectrogram data folder path and give a batch size(bs=32)
 
