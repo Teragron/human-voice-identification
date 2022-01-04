@@ -5,6 +5,6 @@ Data Preparation:
 	python modes.py -r person1(resize visual data to 224,224)
 
 Training:
-
+	Using Resnet18 
 
 
