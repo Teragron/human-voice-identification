@@ -55,3 +55,9 @@ python modes.py -t voice/person1.wav -p person1
 python modes.py -v person1 -a voice/person1.wav
 
 ```
+4. Finally we resize the visual datas to 224x224 so that we can have a constant size. Other than that it is also good to aim for the finetuning to use what the model was originally using
+
+```bash
+python modes.py -r person1
+```
+
