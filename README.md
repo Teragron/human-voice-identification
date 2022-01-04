@@ -30,7 +30,7 @@ Before running the scripts it is better to use the following directorial tree:
 
 ![](gits/gitdirs.png)
 
-Since we will be running the scripts from command line, we should go to the directory of this repository on the computer. For me it was
+1. Since we will be running the scripts from command line, we should go to the directory of this repository on the computer. For me it was
 
 ```bash
 cd desktop/proje
@@ -44,5 +44,16 @@ python modes.py -m voice/person1.wav
 
 In this way we've halved the size of .wav file.
 
-Besides that the parameters that give us spacial information are now eliminated, thus we have a better chance to prevent any overlocalization. (This is the part i'm not sure about if this kind of elliminition makes any sence)
+Besides that the parameters that give us spacial information are now eliminated, thus we have a better chance to prevent any overlocalization. (This is the part i'm not sure about if this kind of eliminition makes any sence)
 
+2. Then we crop the mono .wav file to 1 second long audio clips
+
+```bash
+python modes.py -t voice/person1.wav -p person1
+```
+3. Now we create some visual data
+
+```bash
+python modes.py -v person1 -a voice/person1.wav
+
+```
