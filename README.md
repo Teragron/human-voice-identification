@@ -1,8 +1,8 @@
-# Human-Voice-Recognition
+# Human-Voice-Identification
 Voice Identification and Labeling based on mono audio Spectrogram Data
 
 
-## What is Human Voice Recognition?
+## What is Human Voice Identification?
 Analyzing and learning the person's specific voice and using it to fine-tune the recognition of that person's speech.
 
 You can visit [this page](https://www.macmillandictionary.com/dictionary/british/voice-recognition) for the dictionary definition.
