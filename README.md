@@ -1,4 +1,4 @@
-# Human-Voice-Classification
+# Human-Voice-Recognition
 Voice Identification and Labeling based on mono audio Spectrogram Data
 
 
