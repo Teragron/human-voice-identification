@@ -67,8 +67,11 @@ The training Phase is quite self explanatory. We finetune a pretrained model cal
 1. We load the spectrogram data folder path and give a batch size(bs=32)
 2. After that we download the Resnet50 model and initiate it.
 3. We get the best Learning Rate
+4. 
 ![](gits/vallex.png)
 4. Then we finetune the model
+5. 
 ![](gits/tune.png)
 5. Finally we plot the confusion Matrix and save the model
+
 ![](gits/confusion.png)
