@@ -86,3 +86,15 @@ Now we join the prediction with corresponding video for given duration
 ```bash
 python modes.py -l compare.mp4 -lt compare.txt -ld 119
 ```
+## Command explanation
+
+-m for mono -- give the directory of .wav file (overwrites on the existing stereo file)
+-t for trim (it has to be used with -p) -- give the directory of .wav file
+-p for the name of the person
+-v for visual (it has to be used with -a) -- give the name of the person who you want to create it's visual data
+-a for audio -- give the directory of .wav file
+-r for resize -- give the name of the person
+-l for labeling -- give the directory of the .mp4 file (it has to be used with -lt and -ld)
+-lt for labelingtext -- give the directory of the .txt file that has predictions
+-ld for labeling duration -- give the duration, which you want it to be rendered.
+(The video won't be saved as _temp_.mp4 if you are't using jupyter Notebook)
