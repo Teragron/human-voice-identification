@@ -30,7 +30,17 @@ Before running the scripts it is better to use the following directorial tree:
 
 ![](gits/gitdirs.png)
 
-After that we start off with converting the stereo .wav file to mono .wav file.
+Since we will be running the scripts from command line, we should go to the directory of this repository on the computer. For me it was
+
+```bash
+cd desktop/proje
+```
+
+After that we can start off with converting the stereo .wav file to mono .wav file.
+
+```bash
+python modes.py -m voice/person1.wav
+```
 
 In this way we've halved the size of .wav file.
 
