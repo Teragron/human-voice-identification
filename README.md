@@ -12,7 +12,7 @@ The terms identification and recognition are highly confused. In this repositori
 ## Demo
 [![Watch the video](https://i9.ytimg.com/vi_webp/aJP5xogUpQg/mqdefault.webp?sqp=CNDU0Y4G&rs=AOn4CLBkAohqQ2RLUis8iC2rBZkgzOngnA)](https://www.youtube.com/watch?v=aJP5xogUpQg)
 
-This demo is a demonstration for 2-Class speech-Recognition. It showcases the labeled conversation between two of my personal favorite influencers.
+This demo is a demonstration for 2-Class speech-Identification. It showcases the labeled conversation between two of my personal favorite influencers.
 
 It has been trained with total of 4 hours audio clip and 16300 spectrogram image data.
 
