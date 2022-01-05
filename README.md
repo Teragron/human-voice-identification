@@ -10,7 +10,7 @@ You can visit [this page](https://www.macmillandictionary.com/dictionary/british
 The terms identification and recognition are highly confused. In this repositories context, we will be trying to predict the owner of a given voice.
 
 ## Demo
-[![Watch the video](https://i9.ytimg.com/vi_webp/aJP5xogUpQg/mqdefault.webp?sqp=CNDU0Y4G&rs=AOn4CLBkAohqQ2RLUis8iC2rBZkgzOngnA)](https://www.youtube.com/watch?v=aJP5xogUpQg)
+[![Watch the video](https://i.imgflip.com/604ad4.jpg)](https://www.youtube.com/watch?v=aJP5xogUpQg)
 
 This demo is a demonstration for 2-Class speech-Identification. It showcases the labeled conversation between two of my personal favorite influencers.
 
