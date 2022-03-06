@@ -41,7 +41,7 @@ cd desktop/proje
 
 1. Now we can start off with converting the stereo .wav file to mono .wav file.
 In this way we've halved the size of .wav file.
-Besides that the parameters that give us spacial information are now eliminated, thus we have a better chance to prevent any overlocalization. (This is the part i'm not sure about if this kind of eliminition makes any sence)
+Besides that the parameters that give us spacial information are now eliminated, thus we have a better chance to prevent any overlocalization. (This is the part i'm not sure about if this kind of eliminition makes any sense)
 
 ```bash
 python modes.py -m voice/person1.wav
