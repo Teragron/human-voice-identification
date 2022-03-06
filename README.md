@@ -117,6 +117,6 @@ To get overall better results i would recommend using more than one source of vi
 
 ## Conclusion
 
-The model can make accurate predictions to a certain extent. The normalization of the voice data could be a solution for eliminating obvious environmental factors like quality of voice, distance to the microphone or the quite audio files. Since even the posture of the owner of voice affects the visual data, a side process that only let's the core and and constant features of a voice to the model may result in better.
+The model can make accurate predictions to a certain extent. The normalization of the voice data could be a solution for eliminating obvious environmental factors like quality of voice, distance to the microphone or the quite audio files. Since even the posture of the owner of voice affects the visual data, a side process that only let's the core and constant features of a voice go to the model may result in better.
 
 Created by Can Günen
