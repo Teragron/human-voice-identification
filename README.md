@@ -112,7 +112,7 @@ python modes.py -l compare.mp4 -lt compare.txt -ld 119
 (The video won't be saved as _temp_.mp4 if you are't using jupyter Notebook)
 
 ## Suggestions
-To get overall better results i would recommend using more than one source of video or audio file. The .waw files that i used were concatenated .wav files and it included more than 5 places and microphones. 
+To get overall better results i would recommend using more than one source of video or audio file. The .waw files that i used were concatenated .wav files and it included more than 5 microphones. 
 
 
 ## Conclusion
