@@ -23,7 +23,7 @@ I would recommend to download this repository for better workspace in command-li
 ## How it works?
 The model, which is a "Deep Residual Learning for Image Recognition" looks at the voice classes based on given spectrogram image datas, that has been preprocessed.
 
-Then for the real test Phase, the model makes predictions for the given .wav file and overlays the prediction to the corresponding video.
+Then for the real test Phase, the model makes predictions for the given .wav file and overlays the prediction to the corresponding video frame.
 
 ![](gits/algorithm.png)
 
