@@ -14,7 +14,7 @@ The terms identification and recognition are highly confused. In this repositori
 
 This demo is a demonstration for 2-Class speech-Identification. It showcases the labeled conversation between two of my personal favorite influencers.
 
-It has been trained with total of 4 hours audio clip and 16300 spectrogram image data.
+It has been trained with total of 4 hours audio clip and 16300 spectrogram image datas.
 
 ## Installation
 I would recommend to download this repository for better workspace in command-line.
@@ -117,6 +117,6 @@ To get overall better results i would recommend using more than one source of vi
 
 ## Conclusion
 
-The model can make accurate predictions to a certain extent. The normalization of the voice data could be a solution for eliminating obvious environmental factors like quality of voice, distance to the microphone or the quite audio files. Since even the posture of the owner of voice affects the visual data, a side process that only let's the core and constant features of a voice go to the model may result in better.
+The model can make accurate predictions to a certain extent. The normalization of the voice data could be a solution for eliminating obvious environmental factors like quality of voice, distance to the microphone or the quiet audio files. Since even the posture of the owner of voice affects the visual data, a side process that only let's the core and constant features of a voice go to the model may result in better.
 
 Created by Can Günen
